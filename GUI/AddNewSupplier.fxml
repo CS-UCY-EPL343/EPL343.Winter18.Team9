@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="225.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add new supplier" underline="true" wrappingWidth="200.9999971985817" AnchorPane.leftAnchor="225.0" AnchorPane.rightAnchor="174.0000028014183">
+         <font>
+            <Font size="24.0" />
+         </font></Text>
+      <Text layoutX="123.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID :" wrappingWidth="26.999997198581696">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="163.0" layoutY="97.0" prefHeight="27.0" prefWidth="404.0" />
+      <Text layoutX="73.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company :" wrappingWidth="81.99999463558197">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="163.0" layoutY="133.0" prefHeight="27.0" prefWidth="404.0" />
+      <Text layoutX="25.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CEO's full name :" wrappingWidth="125.9999971985817">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="163.0" layoutY="168.0" prefHeight="27.0" prefWidth="404.0" />
+      <Text layoutX="94.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail :" wrappingWidth="56.999997198581696">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="163.0" layoutY="203.0" prefHeight="27.0" prefWidth="404.0" />
+      <Text layoutX="64.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telephone :" wrappingWidth="89.99998569488525">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="163.0" layoutY="240.0" prefHeight="27.0" prefWidth="404.0" />
+      <Text layoutX="33.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minimum order :" wrappingWidth="119.99999284744263">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="163.0" layoutY="277.0" prefHeight="27.0" prefWidth="404.0" />
+      <Button layoutX="277.0" layoutY="333.0" mnemonicParsing="false" text="Save" />
+   </children>
+</AnchorPane>
